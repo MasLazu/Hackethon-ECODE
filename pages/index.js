@@ -38,6 +38,7 @@ export default function Home() {
             <div className="illustration md:mt-0 md:hidden flex justify-center">
               <Image
                 src={illustrationPizza}
+                alt={"illustrationPizza"}
                 className="w-[80%] h-auto md:hidden"
               />
             </div>
@@ -61,7 +62,11 @@ export default function Home() {
               </div>
             </div>
             <div className="illustration hidden md:block">
-              <Image src={illustrationPizza} className="w-[100%] h-auto" />
+              <Image
+                src={illustrationPizza}
+                className="w-[100%] h-auto"
+                alt={"illustrationPizza"}
+              />
             </div>
           </section>
           <section className="min-h-[100vh] md:grid md:grid-cols-2 items-center sm:mt-20 md:mt-0">
@@ -74,6 +79,7 @@ export default function Home() {
             <div className="illustration lg:px-5 px-8 md:px-1">
               <Image
                 src={illustrationChef}
+                alt={"illustrationChef"}
                 className="w-[100%] h-auto mb-6 md:mb-0"
               />
             </div>
@@ -150,6 +156,7 @@ export default function Home() {
             <div className="illustration md:px-5 px-8 md:hidden">
               <Image
                 src={illustrasiBurger}
+                alt={"illustrasiBurger"}
                 className="w-[100%] h-auto mb-6 md:mb-0"
               />
             </div>
@@ -174,6 +181,7 @@ export default function Home() {
             <div className="illustration md:px-5 px-8 hidden md:block">
               <Image
                 src={illustrasiBurger}
+                alt={"illustrasiBurger"}
                 className="w-[100%] h-auto mb-6 md:mb-0"
               />
             </div>
@@ -187,24 +195,28 @@ export default function Home() {
             </h2>
             <Image
               src={illustrasitestimoni}
+              alt={"illustrasitestimoni"}
               width={1799}
               height={797}
               className="w-[100%] h-auto hidden sm:block"
             />
             <Image
               src={testimoniMobile1}
+              alt={"testimoniMobile1"}
               width={670}
               height={370}
               className="w-[100%] sm:hidden"
             />
             <Image
               src={testimoniMobile2}
+              alt={"testimoniMobile2"}
               width={670}
               height={370}
               className="w-[100%] sm:hidden"
             />
             <Image
               src={testimoniMobile3}
+              alt={"testimoniMobile3"}
               width={670}
               height={370}
               className="w-[100%] sm:hidden"
@@ -256,7 +268,11 @@ export default function Home() {
               />
               <div className="rounded-r-full h-14 flex justify-center items-center px-1">
                 <button className="active:brightness-90 rounded-full bg-main h-12 w-12 flex items-center justify-center">
-                  <Image src={arrowIcon} className="h-6 w-auto" />
+                  <Image
+                    src={arrowIcon}
+                    alt={"arrowIcon"}
+                    className="h-6 w-auto"
+                  />
                 </button>
               </div>
             </div>
@@ -266,7 +282,12 @@ export default function Home() {
       <footer className="w-[100vw] flex justify-center py-24 bg-[#f8fbf5] left-0">
         <div className="inner-footer md:px-6 px-3 container grid grid-cols-8">
           <div className="footer-brand md:col-span-3 col-span-8 pr-10">
-            <Image src={logo} width={231} className="h-12 w-auto" />
+            <Image
+              src={logo}
+              alt={"logo"}
+              width={231}
+              className="h-12 w-auto"
+            />
             <p className="lg:text-[1.4rem] md:text-lg text-[#636465] my-5">
               Don't miss to subscribe to our new feeds, Kindly fill the form
               bellow.
